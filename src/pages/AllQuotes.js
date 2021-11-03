@@ -8,10 +8,7 @@ const DUMMY_QUOTES = [
 ];
 
 const AllQuotes = () => {
-    return <>
-            <h2>All Quotes Page</h2>
-            <QuoteList quotes={DUMMY_QUOTES}/>
-         </>
+    return  <QuoteList quotes={DUMMY_QUOTES}/>
 }
 
 export default AllQuotes;
