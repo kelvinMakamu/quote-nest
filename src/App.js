@@ -13,12 +13,12 @@ function App() {
           <Redirect to='/quotes'/>
         </Route>
         <Route path="/quotes" exact>
-        <AllQuotes/>
+          <AllQuotes/>
         </Route>
-        <Route path="/quotes/:quoteId">
-        <QuoteDetail/>
+        <Route path="/quotes/:quoteId" exact>
+         <QuoteDetail/>
         </Route>
-        <Route path="/quotes/new-quote" exact>
+        <Route path="/new-quote" exact>
           <NewQuote/>
         </Route>
       </Switch>
